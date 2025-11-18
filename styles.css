@@ -6,6 +6,7 @@
 body {
     margin: 0;
     display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #image-section {
@@ -37,8 +38,7 @@ body {
     height: 35%;
     background-color: #f2f2f2;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
 #form-inputs {
