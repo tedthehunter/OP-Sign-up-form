@@ -44,12 +44,12 @@
 
                 <div class="input-block">
                     <label for="password">PASSWORD</label>
-                    <input id="password" type="password" minlength="8" required>
+                    <input id="password" type="password" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" required>
                 </div>
 
                 <div class="input-block">
                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input id="confirm-password" type="password" minlength="8" required>
+                    <input id="confirm-password" type="password" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" required>
                 </div>
             </form>
         </div>
