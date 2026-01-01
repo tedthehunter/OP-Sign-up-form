@@ -121,8 +121,15 @@ input:invalid {
 }
 
 #login-link {
-    margin: 20px 0 0 30px;
+    margin: 15px 0 0 30px;
     display: flex;
     flex-direction: row;
     gap: 5px;
+    align-items: center;
+}
+
+#login-link a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
 }
