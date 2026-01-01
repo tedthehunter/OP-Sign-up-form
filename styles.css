@@ -24,6 +24,18 @@ body {
     background-position: center;
 }
 
+#photo-credit {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .7rem;
+    margin-bottom: 15px;
+    font-weight: 100;
+}
+
+#photo-credit a {
+    color: white;
+    text-decoration: underline;
+}
+
 #form-section {
     display: flex;
     flex-direction: column;
