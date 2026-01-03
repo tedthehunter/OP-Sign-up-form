@@ -24,6 +24,26 @@ body {
     background-position: center;
 }
 
+#odin-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    height: 15%;
+    margin-top: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#odin-logo img {
+    height: 5rem;
+}
+
+#odin-logo h1 {
+    font-size: 4rem;
+    font-weight: normal;
+}
+
 #photo-credit {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: .7rem;
